@@ -42,3 +42,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+.shop:hover img {
+    content: url(http://tierrasharae.github.io/customiced/img/online-shop-color.png);
+}
