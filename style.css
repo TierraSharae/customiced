@@ -33,8 +33,9 @@ h2 {
 
 .mice-text {
     display: flex;
-    justify-content: center;
     font-size: 3vw;
+    text-align: center;
+    justify-content: center;
     align-content: center;
     margin: 0 20px 0px 20px;
     flex: 0 0 auto;
@@ -226,9 +227,9 @@ button:active {
         flex-basis: 40%;
     }
     .mice-text {
-        justify-content: center;
-        font-size: 90%;
-        align-content: center;
+        font-size: 3vmin;
         margin-top: -50px;
+        text-align: center;
+        justify-content: center;
     }
 }
