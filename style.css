@@ -36,19 +36,19 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .icon {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5px;
+    margin: 40px;
+    flex: 1;
+    /* flex-basis: 14% */
 }
 
-.shop:hover img {
-    content: url(http://tierrasharae.github.io/customiced/img/online-shop-color.png);
-}
-
-.package:hover img {
-    content: url(http://tierrasharae.github.io/customiced/img/package-color.png);
+.icon>img {
+    align-content: center;
+    width: 100%;
 }
