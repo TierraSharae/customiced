@@ -229,6 +229,6 @@ button:active {
         justify-content: center;
         font-size: 100%;
         align-content: center;
-        /* flex: 0 0 auto;*/
+        margin-top: -50px;
     }
 }
