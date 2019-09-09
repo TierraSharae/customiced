@@ -46,3 +46,7 @@ body {
 .shop:hover img {
     content: url(http://tierrasharae.github.io/customiced/img/online-shop-color.png);
 }
+
+.shop:hover img {
+    content: url(http://tierrasharae.github.io/customiced/img/package-color.png);
+}
