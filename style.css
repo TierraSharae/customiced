@@ -20,7 +20,7 @@ h1 {
 .mice-pics {
     display: flex;
     justify-content: center;
-    /* flex-direction: column; */
+    flex-direction: column;
     flex: 0 0 30;
 }
 
