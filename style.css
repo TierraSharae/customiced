@@ -4,17 +4,23 @@ body {
     color: white;
 }
 
+h1 {
+    text-shadow: darkgray;
+}
+
 .header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
     margin: 0px 20px 0px 20px;
 }
 
 .mice-pics {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* flex: 0 0 40; */
 }
 
