@@ -18,6 +18,10 @@ h2 {
     margin: 0;
 }
 
+h4 {
+    display: none;
+}
+
 .header {
     width: 100vw;
     display: flex;
@@ -262,5 +266,11 @@ button:active {
         text-align: center;
         color: #A9A9A9;
         display: flex;
+    }
+    h2 {
+        display: none;
+    }
+    h4 {
+        margin: 0;
     }
 }
