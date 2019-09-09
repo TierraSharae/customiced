@@ -1,11 +1,13 @@
 body {
-    background-color: #101010;
+    background-color: black;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
 h1 {
-    text-shadow: darkgray;
+    background: -webkit-linear-gradient(white, #A9A9A9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .header {
@@ -45,6 +47,7 @@ h1 {
 
 .blurb {
     margin: 0 20px 0 20px;
+    text-align: center;
 }
 
 .icon-container {
