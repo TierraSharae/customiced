@@ -13,6 +13,8 @@
 
 </head>
 
+<div class="loader"></div>
+
 <body>
     <div class="header">
         <div class="mice-pics">
@@ -89,6 +91,13 @@
             x.style.color = "black";
         }
     }
+</script>
+
+
+<script>
+    $(window).load(function() {
+        $('div.loading').fadeOut(1000);
+    });
 </script>
 
 </html>
