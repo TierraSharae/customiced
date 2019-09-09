@@ -15,12 +15,13 @@ h2 {
 }
 
 .header {
+    width: 100vw;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content: center;
-    /* margin: 0px 20px 0px 20px; */
+    margin: 0 10px 0 0;
 }
 
 .mice-pics {
@@ -31,7 +32,7 @@ h2 {
 }
 
 .mice-text {
-    white-space: nowrap;
+    display: flex;
     justify-content: center;
     font-size: 3vw;
     align-content: center;
@@ -211,7 +212,6 @@ button:active {
         flex-wrap: nowrap;
         justify-content: center;
         align-content: center;
-        /* margin: 0px 20px 0px 20px; */
     }
     .icon {
         display: flex;
@@ -224,5 +224,11 @@ button:active {
         margin-left: 2%;
         flex: 1;
         flex-basis: 40%;
+    }
+    .mice-text {
+        justify-content: center;
+        font-size: 100%;
+        align-content: center;
+        /* flex: 0 0 auto;*/
     }
 }
