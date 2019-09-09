@@ -45,6 +45,7 @@ body {
     align-content: center;
     margin: 40px;
     flex: 1;
+    flex-basis: 14%;
 }
 
 img {
