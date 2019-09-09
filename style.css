@@ -34,6 +34,7 @@ body {
 
 .icon-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -41,12 +42,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 5px;
 }
 
 .shop:hover img {
     content: url(http://tierrasharae.github.io/customiced/img/online-shop-color.png);
 }
 
-.shop:hover img {
+.package:hover img {
     content: url(http://tierrasharae.github.io/customiced/img/package-color.png);
 }
