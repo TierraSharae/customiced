@@ -111,7 +111,8 @@ hr {
     text-align: right;
 }
 
-.ack>a {
+.ack>a,
+.ack>a:visited {
     color: gainsboro;
 }
 
