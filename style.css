@@ -203,3 +203,9 @@ button:active {
     position: relative;
     top: 1px;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: color;
+    }
+}
