@@ -21,16 +21,16 @@ h1 {
     display: flex;
     justify-content: center;
     /* flex-direction: column; */
-    /* flex: 0 0 40; */
+    flex: 0 0 30;
 }
 
 .mice-text {
     margin: 5px;
     display: flex;
-    flex: 0 0 auto;
+    flex: 0 auto auto;
     justify-content: center;
     font-size: 3vw;
-    font-stretch: ultra-expanded;
+    /* font-stretch: ultra-expanded; */
     align-content: center;
 }
 
