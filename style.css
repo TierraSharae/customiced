@@ -207,9 +207,6 @@
     }
     
     @keyframes change {
-        from {
-            color: grey
-        }
         to {
             color: black
         }
