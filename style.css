@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.mice-pics {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 0 0 40;
+}
+
+.mice-text {
+    margin: 5px;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    font-size: 3vw;
+    font-stretch: ultra-expanded;
+    align-content: center;
+}
+
+.mice>img {
+    align-content: center;
+    width: 100%;
+}
