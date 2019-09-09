@@ -199,11 +199,11 @@
     span:target {
         color: grey;
         margin-top: 10px;
+        animation: change 5s step-end both;
     }
     
     span {
         color: black;
-        animation: change 5s step-end both;
     }
     
     @keyframes change {
