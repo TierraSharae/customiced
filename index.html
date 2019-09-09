@@ -7,6 +7,8 @@
     <title>Customiced</title>
     <link rel='stylesheet' href='style.css' />
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 
 
 </head>
@@ -24,49 +26,69 @@
         </div>
     </div>
     <div class="blurb">your hands are unique &mdash; why isn't your mouse?<br> Customiced is a mouse created by you for you. unlike traditional mice, Customiced fits your hand's size, shape, grip preference, comfort, and style.</div>
-    <div class="icon-container">
-        <div class="icon logo">
-            <a href="http://tierrasharae.github.io/customiced/"><img src="http://tierrasharae.github.io/customiced/img/logo-grey.png"></a>
-            <hr>
-            <h2>how it works</h2>
-        </div>
-        <div class="icon shop"><img src="http://tierrasharae.github.io/customiced/img/online-shop-color.png">
-            <p>1. place your order online.</p>
-        </div>
-        <div class="icon clay"><img src="http://tierrasharae.github.io/customiced/img/clay-crafting-color.png">
-            <p>2. receive impression kit and complete at home.</p>
-        </div>
-        <div class="icon mail"><img src="http://tierrasharae.github.io/customiced/img/package-color.png">
-            <p>3. mail impression kit to our studio.</p>
-        </div>
-        <div class="icon extract"><img src="http://tierrasharae.github.io/customiced/img/scan-color.png">
-            <p>4. your hand model is extracted and refined.</p>
-        </div>
-        <div class="icon chat"><img src="http://tierrasharae.github.io/customiced/img/conversation-color.png">
-            <p>5. your mouse is ready only after your final consultation.</p>
-        </div>
-        <div class="icon print"><img src="http://tierrasharae.github.io/customiced/img/printing-color.png">
-            <p>6. your mouse is printed and post-processed to perfection.</p>
-        </div>
-        <div class="icon receive"><img src="http://tierrasharae.github.io/customiced/img/mailbox-color.png">
-            <p>7. receive your Customiced!</p>
+    <div class="container">
+        <div class="icon-container">
+            <div class="icon logo">
+                <a href="http://tierrasharae.github.io/customiced/"><img src="http://tierrasharae.github.io/customiced/img/logo-grey.png"></a>
+                <hr>
+                <h2>how it works</h2>
+            </div>
+            <div class="icon shop"><img src="http://tierrasharae.github.io/customiced/img/online-shop-color.png">
+                <p>1. place your order online.</p>
+            </div>
+            <div class="icon clay"><img src="http://tierrasharae.github.io/customiced/img/clay-crafting-color.png">
+                <p>2. receive impression kit and complete at home.</p>
+            </div>
+            <div class="icon mail"><img src="http://tierrasharae.github.io/customiced/img/package-color.png">
+                <p>3. mail impression kit to our studio.</p>
+            </div>
+            <div class="icon extract"><img src="http://tierrasharae.github.io/customiced/img/scan-color.png">
+                <p>4. your hand model is extracted and refined.</p>
+            </div>
+            <div class="icon chat"><img src="http://tierrasharae.github.io/customiced/img/conversation-color.png">
+                <p>5. your mouse is ready only after your final consultation.</p>
+            </div>
+            <div class="icon print"><img src="http://tierrasharae.github.io/customiced/img/printing-color.png">
+                <p>6. your mouse is printed and post-processed to perfection.</p>
+            </div>
+            <div class="icon receive"><img src="http://tierrasharae.github.io/customiced/img/mailbox-color.png">
+                <p>7. receive your Customiced!</p>
+            </div>
         </div>
 
 
 
     </div>
-    <div class="footer-container">
+    <!-- <div class="footer-container">
         <a href="#sorry" class="order-button">order now</a>
     </div>
 
     <div class="footer-container">
         <span id="sorry">
             sorry, i'm only a prototype for now!</span>
+    </div> -->
+
+    <div class="footer-container">
+        <button onclick="myFunction()">order now</button>
+    </div>
+    <div class="footer-container">
+        <div id="sorry" style="color:black; margin-top:10px;">sorry, i'm only a prototype for now!
+        </div>
     </div>
 
-
     <div class="ack">web dev: tierra sharae<br> icons made by freepik and smashicons from flaticon.com. <br>product designed by tierra sharae, chunan liu, zi liang xu</div>
-
 </body>
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("sorry");
+        if (x.style.color === "black") {
+            x.style.color = "white";
+        } else {
+            x.style.color = "black";
+        }
+    }
+</script>
 
 </html>
