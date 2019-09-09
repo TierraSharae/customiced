@@ -4,8 +4,12 @@ body {
     color: white;
 }
 
+.emph {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+
 h1 {
-    background: -webkit-linear-gradient(white, #707070);
+    background: -webkit-linear-gradient(white, #909090);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
