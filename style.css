@@ -106,7 +106,7 @@ h5 {
 
 .mice>img {
     align-content: center;
-    width: 100%;
+    width: 50%;
 }
 
 .blurb {
@@ -292,6 +292,10 @@ button:active {
     #section0{
         display: none;
     }
+    .mice>img {
+      align-content: center;
+      width: 100%;
+  }
     .header {
         display: flex;
         flex-direction: column;
