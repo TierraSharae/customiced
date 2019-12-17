@@ -278,7 +278,7 @@ button:active {
 
 #section0{
   background: rgb(175,175,175);
-  background: linear-gradient(180deg, rgba(175,175,175,1) 0%, rgba(0,0,0,1) 70%);
+  background: linear-gradient(180deg, rgba(175,175,175,1) 0%, rgba(0,0,0,1) 60%);
 }
 
 #boxed {
