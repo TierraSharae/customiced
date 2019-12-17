@@ -4,14 +4,13 @@ body {
     color: white;
 }
 
-.emph {
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
-}
-
 h1 {
     background: -webkit-linear-gradient(white, #909090);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: -50px;
+    font-size: 60px;
+    text-align: center;
 }
 
 h2 {
@@ -21,6 +20,13 @@ h2 {
 h4 {
     display: none;
 }
+
+
+
+.emph {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+
 
 .header {
     width: 100vw;
@@ -34,6 +40,7 @@ h4 {
 }
 
 .mice-pics {
+    width: 100vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -52,10 +59,15 @@ h4 {
     flex-direction: column;
 }
 
+.mice {
+  display: flex;
+  justify-content: center;
+}
+
 h5 {
     /* display: flex; */
-    margin-top: -30px;
-    font-size: 50%;
+    margin-top: -50px;
+    font-size: 100%;
     text-align: center;
     /*justify-content: center;
     align-content: center;
@@ -240,6 +252,11 @@ button:hover {
 button:active {
     position: relative;
     top: 1px;
+}
+
+#section0{
+  background: rgb(175,175,175);
+  background: linear-gradient(0deg, rgba(175,175,175,1) 0%, rgba(0,0,0,1) 45%);
 }
 
 @media screen and (max-width: 750px) {
