@@ -289,6 +289,9 @@ button:active {
 }
 
 @media screen and (max-width: 750px) {
+    #section0{
+        display: none;
+    }
     .header {
         display: flex;
         flex-direction: column;
